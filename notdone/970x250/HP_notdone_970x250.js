@@ -836,7 +836,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.setTransform(243,150);
 	this.instance.shadow = new cjs.Shadow("#333333",3,3,12);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:160},64).to({_off:true},80).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(54).to({x:160},10).to({_off:true},80).wait(2));
 
 	// HEAD2
 	this.instance_1 = new lib.HEAD2();
@@ -912,7 +912,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_5 = new lib.watermelon();
 	this.instance_5.setTransform(249,161.05,1.6667,1.6667,0,0,0,0.1,0.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({regX:0,regY:0,scaleX:1.0593,scaleY:1.0593,x:157.85,y:136},64).to({_off:true},80).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(54).to({regX:0,regY:0,scaleX:1.0593,scaleY:1.0593,x:157.85,y:136},10).to({_off:true},80).wait(2));
 
 	// bkgd
 	this.instance_6 = new lib._300x600_bkgd();
@@ -933,7 +933,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HP_notdone_970x250_atlas_1.jpg?1619522992411", id:"HP_notdone_970x250_atlas_1"}
+		{src:"images/HP_notdone_970x250_atlas_1.jpg?1619524907204", id:"HP_notdone_970x250_atlas_1"}
 	],
 	preloads: []
 };
