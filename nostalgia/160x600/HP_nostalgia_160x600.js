@@ -780,7 +780,7 @@ if (reversed == null) { reversed = false; }
 
 	// Since 50 1971
 	this.instance_1 = new lib.Since_50_1971();
-	this.instance_1.setTransform(86.3,427.95);
+	this.instance_1.setTransform(81.5,427.95);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(355));
 
@@ -954,7 +954,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HP_nostalgia_160x600_atlas_1.jpg?1619125513696", id:"HP_nostalgia_160x600_atlas_1"}
+		{src:"images/HP_nostalgia_160x600_atlas_1.jpg?1619554575849", id:"HP_nostalgia_160x600_atlas_1"}
 	],
 	preloads: []
 };
